@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Styles/estilos.css" />
+
+    <link rel="shortcut icon" href="Images/Images-Pro/alpaka.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- SECCION DE INICIO :) -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/SC/ 🦙</h1>
+                    <nav id="nav">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)"">SOBRE MI</a></li>
+                            <li><a href=" #servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Iconos del menu responsive ;) -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!-- Iconos de redes socioles ._. -->
+                    <div class="redes">
+                        <a href="https://thealpak4.github.io/Portafolio/" target="_blank"><i
+                                class="fa-brands fa-square-github"></i></a>
+                        <a href="https://discord.gg/Ntzab4mn" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://www.figma.com/file/v8YGLq0gTTkwZ870sgnFxI/Presentacion-N%C2%B0-2?type=design&node-id=0-1&mode=design"
+                            target="_blank"><i class="fa-brands fa-figma"></i></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i
+                                class="fa-solid fa-envelope"></i></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">¡Bienvenido 🦙!</p>
+                <h2>Soy <span>Ricardo Suarez</span>, Desarrollo Web</h2>
+                <p class="descripcion">"La paciencia y la curiosidad son tus mejores aliados en el camino de convertirte
+                    en un programador junior excepcional."</p>
+                <a href="#portafolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="Images/perfil.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Ricardo Suarez</span> </h2>
+            <h3>Programador Junior</h3>
+            <p>Me designo como diseñador de proyectos junior, me gusta tener intuición y una mejora continua ante nuevos
+                proyectos en términos de diseño visual, ayudando a mejorar las perspectivas generales del negocio.</p>
+            <p>Mi objetivo es dar a conocer mis propuestas con diferentes diseños codificados a través de nuevos
+                proyectos y también mediante el análisis de datos.</p>
+            <a download="CV" href="CV_SUAREZ_RICARDO.pdf">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>El diseño de sitios web implica la creación visual y estructural de páginas web para brindar una
+                    experiencia atractiva y funcional a los usuarios en línea.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Porgramación Java</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Java es un lenguaje de programación versátil y orientado a objetos ampliamente utilizado en el
+                    desarrollo de aplicaciones empresariales y de software.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-android"></i></i></span>
+                <h4>Desarrollador Android</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Java</li>
+                    <li>Kotlin</li>
+                    <li>Jepack Compose</li>
+                </ul>
+                <p>Soy un desarrollador de Android especializado en crear aplicaciones móviles para dispositivos que
+                    utilizan el sistema operativo Android de Google.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Base de Datos Intermedio</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Como desarrollador de bases de datos, mi enfoque principal es diseñar, implementar y mantener
+                    sistemas de almacenamiento de información eficientes y seguros para respaldar las necesidades de las
+                    aplicaciones y organizaciones</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Junior</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Un desarrollador junior es un profesional en formación que trabaja en proyectos de desarrollo de
+                    software bajo la supervisión de desarrolladores más experimentados, adquiriendo habilidades y
+                    experiencia en programación.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>Consultor Externo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Como Consultor Experto, poseo conocimientos profundos y experiencia especializada para ofrecer
+                    soluciones estratégicas y asesoramiento de alto nivel en mi área de especialización.
+                </p>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class=""></div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>Javascript</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class=""></div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>Base de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class=""></div>
+            </div>
+        </div>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>Photoshop</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="ps" class=""></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Images/Images-Pro/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Desarrollo E Interpretación Con Machine Learning Y Datos Regresivos</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Images/Images-Pro/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Curso De Ayuda Para Enrutar Registros De Llamadas En Android</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Images/Images-Pro/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Carro VISA – Java Android</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Images/Images-Pro/p2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Cargando...</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Images/Images-Pro/p2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Cargando...</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Images/Images-Pro/p2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Cargando...</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Images/Images-Pro/p2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Cargando...</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Images/Images-Pro/p2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Cargando...</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="Images/Images-Pro/p2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Cargando...</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">
+            Contactame
+        </h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema.... 🦙" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje... 🦙"
+                        class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="https://thealpak4.github.io/Portafolio/" target="_blank"><i
+                    class="fa-brands fa-square-github"></i></a>
+            <a href="https://discord.gg/Ntzab4mn" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.figma.com/file/v8YGLq0gTTkwZ870sgnFxI/Presentacion-N%C2%B0-2?type=design&node-id=0-1&mode=design"
+                target="_blank"><i class="fa-brands fa-figma"></i></a>
+        </div>
+    </footer>
+
+    <script src="JavaScript/script.js""> </script>
+</body>
+
+</html>
